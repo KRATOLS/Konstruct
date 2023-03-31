@@ -131,8 +131,6 @@ img {
     display: flex;
     justify-content: space-between;
 }
-.text-block {
-}
 .text-block__h3 span {   
     color: #16ACE8;
 }
@@ -165,8 +163,6 @@ img {
 }
 /*Services*/
 /*Services Header*/
-.services {
-}
 .services-header__flex {
     display: flex;
     margin-bottom: 76px;
@@ -253,6 +249,9 @@ img {
    background-image: url(../img/bg2.jpg);
    height: 498.24px;
    padding-top: 120px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
 }
 .touch__h2 {
     font-family: 'Open Sans', sans-serif;
@@ -415,9 +414,6 @@ img {
 }
 .icon:last-child {
     margin-right: 0;
-}
-.icons__img {
-    
 }
 .square {
     width: 14px;
